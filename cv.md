@@ -4,7 +4,7 @@
 
 ## My contacts
 
-E-mail: yuriy_lipchey@outook.com
+E-mail: yuriy_lipchey@outlook.com
 
 Discord: yuriy_lipchey#0482
 
