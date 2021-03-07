@@ -9,9 +9,9 @@ body {
 }
 
 .container {
-  width: 80vw;
-  margin: 5vh auto;
-  background: rgba(0, 0, 0, 0.6);
+  width: 70vw;
+  margin: 2vh auto;
+  background: rgba(0, 0, 0, 0.75);
   border-radius: 0.5rem;
   color: #fff;
   font-family: 'Muli', sans-serif;
@@ -19,7 +19,22 @@ body {
   padding: 3rem;
 }
 
+aside {
+  display: inline-block;
+  width: 30vw;
+}
+
+.content {
+  display: flex;
+}
+
+main {
+  /*display: inline-block;*/
+  width: 35vw;
+}
+
 .header {
+
 
 }
 
@@ -27,10 +42,20 @@ img {
   display: inline-block;
   width: 20rem;
   border-radius: 0.5rem;
+
+}
+
+figure.contact-info {
+  margin: 1rem;
+}
+
+.contacts-header {
+
 }
 
 ul {
   list-style: none;
+  display: inline-block;
 }
 
 .contact-info {
@@ -44,10 +69,19 @@ li {
   align-items: center;
 }
 
+.contact:hover {
+  margin-left: 2rem;
+  transform: scale(1.3);
+}
+
 .contact-icon {
   width: 3rem;
 }
 
+
+.about {
+  margin: 2rem 0;
+}
 
 .logo {
   background-color: #fff;
@@ -57,11 +91,14 @@ li {
 
 .logo:hover {
   opacity: 1;
+  transform: scale(1.4);
+
 }
 
 .logo-rs {
   height: 2.6rem;
   width: 2.6rem;
+  padding-right: 0.3rem;
 }
 
 .logo-git {
@@ -70,6 +107,7 @@ li {
   width: 2.4rem;
   margin-left: 10rem;
   margin-right: 0.5rem;
+
   float: left;
 }
 
@@ -80,7 +118,7 @@ span.created {
 }
 
 footer {
-  width: 80vw;
+  width: 70vw;
   margin: 1vh auto;
   display: inline-block;
 }
