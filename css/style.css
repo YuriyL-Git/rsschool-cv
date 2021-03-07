@@ -1,3 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: no-repeat url("../img/neon.jpg");
+  background-size: cover;
+}
+
+.main {
+  width: 80vw;
+  margin: 5vh auto;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.5rem;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  background-size: 100px;
+}
+
+img {
+  display: inline-block;
+  width: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding: 3rem;
+}
+
+
 .header {
-  border-bottom: 1px solid;
+ 
 }
