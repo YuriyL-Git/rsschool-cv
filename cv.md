@@ -43,7 +43,6 @@ function isPalindrome(input) {
     return true
 }
 ```
-
 ---
 
 # Education
