@@ -27,7 +27,6 @@ opportunities for it.
 - **C# and .NET**
 - **Git and Github**
 - **VS Code and JetBrains IDE's**
-
 ---
 
 ## Code example
