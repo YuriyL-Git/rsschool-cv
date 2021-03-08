@@ -15,7 +15,7 @@ Discord: yuriy_lipchey#0482
 Currently unemployed due to my own choice. At some point, I decided to leave
 my previous job as a test engineer and pursue a software developer career.
 Seems that this is the type of work that I made for. I like to solve problems
-and creating new things. And software development provides almost endless
+and creating new things. And software development provides reach
 opportunities for it.
 
 ---
