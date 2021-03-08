@@ -22,7 +22,6 @@ body {
 aside {
   display: inline-block;
   width: 30vw;
-  /*margin-left: 2rem;*/
 }
 
 .content {
@@ -46,12 +45,6 @@ img {
   display: inline-block;
   width: 20rem;
   border-radius: 0.5rem;
-  /*margin-bottom: 2rem;*/
-
-}
-
-li {
-  padding-bottom: 0.4rem;
 }
 
 .fas,
@@ -64,12 +57,7 @@ a {
   color: #fff;
   font-size: 1.3rem;
   margin-left: 1rem;
-
-}
-
-.projects:hover {
-  transform: scale(1.3);
-  margin-left: 2.6rem;
+  margin-right: 0;
 }
 
 .info {
@@ -77,18 +65,26 @@ a {
   margin-left: 1rem;
 }
 
+.about {
+  text-align: justify;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
 h2 {
   font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .contact-info {
-  margin: 1rem 0.8rem;
+  margin: 1rem 0 1rem;
   text-decoration: none;
   color: #fff;
 }
 
 .contacts-header {
   margin: 3rem 0 1rem;
+  text-decoration: underline;
 }
 
 ul {
@@ -96,49 +92,37 @@ ul {
   display: inline-block;
 }
 
-.contacts-header {
-  text-decoration: underline;
-}
-
-
 li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 0.4rem;
 }
 
-.contact:hover {
-  margin-left: 2.5rem;
-  transform: scale(1.2);
+.contact:hover,
+.projects:hover {
+  margin-left: 1rem;
+  transform: scale(1.15);
   cursor: pointer;
 }
 
 .contact-icon {
   width: 2.5rem;
+  margin-right: 0.8rem;
 }
-
-/*.about {*/
-/*  margin: 2rem 0 0;*/
-/*}*/
 
 .section {
   margin-top: 2rem;
 }
 
-h2 {
-  margin-bottom: 0.5rem;
-}
-
 .logo {
   background-color: #fff;
   opacity: 0.8;
-
 }
 
 .logo:hover {
   opacity: 1;
   transform: scale(1.4);
-
 }
 
 .logo-rs {
@@ -167,8 +151,8 @@ span.created {
 footer {
   width: 65vw;
   border-top: 1px solid #444;
-  padding-top: 1rem;
-  margin: 10rem auto 2rem;
+  padding-top: 1.5rem;
+  margin: 10rem auto 2.5rem;
 }
 
 
