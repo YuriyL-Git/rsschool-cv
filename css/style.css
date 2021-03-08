@@ -47,6 +47,11 @@ img {
   border-radius: 0.5rem;
 }
 
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 .fas,
 .far {
   margin-right: 0.5rem;
@@ -69,11 +74,6 @@ a {
   text-align: justify;
   font-size: 1.3rem;
   margin-top: 1rem;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
 }
 
 .contact-info {
