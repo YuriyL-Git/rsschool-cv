@@ -99,10 +99,24 @@ li {
   padding-bottom: 0.4rem;
 }
 
-.contact:hover,
-.projects:hover {
+.contact:hover {
   margin-left: 1rem;
   transform: scale(1.15);
+  cursor: pointer;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-item {
+  transition: all 0.2s ease-in-out;
+}
+
+.project-item:hover {
+  transform: scale(1.15);
+  margin-left: 2.5rem;
   cursor: pointer;
 }
 
